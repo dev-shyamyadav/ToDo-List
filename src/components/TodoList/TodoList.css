@@ -1,0 +1,32 @@
+#todos {
+    border-collapse: collapse;
+    width: 100%;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+#todos th {
+    border: none;
+    padding: 12px;
+    font-size: 0.8rem;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: var(--primary-bg);
+    color: var(--accent-color);
+}
+
+#todos td {
+    border: none;
+    padding: 16px;
+    text-align: center;
+    background-color: var(--table-bg);
+    color: var(--accent-color);
+}
+
+.empty-inbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}

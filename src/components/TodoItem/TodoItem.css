@@ -1,0 +1,21 @@
+.action-btn {
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    color: #00332c;
+    font-size: 0.8rem;
+    margin: 0 5px;
+    border-radius: 10px;
+}
+
+#edit-btn {
+    background-color: var(--warning-bg);
+}
+
+#complete-btn {
+    background-color: var(--success-bg);
+}
+
+#del-btn {
+    background-color: var(--danger-bg);
+}

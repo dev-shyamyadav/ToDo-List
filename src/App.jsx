@@ -1,12 +1,15 @@
-import Todo from "./components/Todo/Todo.jsx"
-import Footer from "./components/Footer/Footer.jsx"
+import React from 'react';
+import TodoContainer from './components/TodoContainer/TodoContainer';
+import Footer from "./components/Footer/Footer"
+import './index.css';
 
 function App() {
-
-  return (<>
-            <Todo />
-            <Footer /> 
-          </>)
+    return (
+        <div className="App">
+            <TodoContainer />
+            <Footer />
+        </div>
+    );
 }
 
-export default App
+export default App;

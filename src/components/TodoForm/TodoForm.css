@@ -1,0 +1,43 @@
+form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.input-field {
+    width: 40%;
+    font-size: 15px;
+    padding: 10px;
+    background-color: var(--input-bg);
+    outline: none;
+    border: 1px solid var(--highlight-bg);
+    border-radius: 10px;
+    margin-right: 20px;
+    color-scheme: dark;
+    color: white;
+}
+
+.input-field:focus {
+    border: 2px solid var(--highlight-bg);
+}
+
+input[type='date'] {
+    color: grey;
+}
+
+input[type='date']:focus {
+    color: white;
+}
+
+.add-btn {
+    padding: 15px 20px;
+    border: none;
+    border-radius: 10px;
+    background: var(--highlight-bg);
+    color: var(--primary-bg);
+}
+
+.add-btn:hover {
+    background-color: var(--hover-highlight);
+}
